@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+:root
+{
+    --col1: #F5EEE6;
+--col2: #FFF8E3;
+--col3: #F3D7CA;
+--col4: #E6A4B4;
+}
+body
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+padding-top: 75px;
+}
+.signin
+{
+    height: 80vh;
+    width: 25vw;
+    border: 3px solid rgb(255, 255, 255);
+background-color:#eebeca;
+font-family: cursive;
+border-radius: 25px;
+padding: 30px 15px;
+
+}
+.signin h1
+{
+    color:black;
+font-weight: bold;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.signin span
+{
+    color: #b02aea;
+    font-family: cursive;
+    font-weight: bold;
+}
+.email 
+{
+    font-family: cursive;
+    color: blue;
+    width: 100%;
+border-radius: 25px;
+padding-left: 15px;
+margin-top: 20px;
+height: 45px;
+
+}
+.pass
+{
+    font-family: cursive;
+    width: 100%;
+    border-radius: 25px;
+    padding-left: 15px;
+    margin-top: 20px;
+height: 45px;
+color: blue;
+
+}
+.submit
+{
+    font-family: cursive;
+    color:white;
+    background-color: rgb(0, 0, 0);
+width: 100%;
+border-radius: 25px;
+margin-top: 20px;
+height: 45px;
+
+}
+.welcome
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.create
+{
+    font-size: 24px;
+    margin-top: 30px;
+}
+.google
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    max-width: 320px;
+    display: flex;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    gap: 0.75rem;
+    color: rgb(34, 0, 255);
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .6s ease;
+  }
+  
+  .button svg {
+    height: 24px;
+  }
+  
+  button:hover {
+    transform: scale(1.02);
+  }
+  .or
+  {
+    font-family: cursive;
+margin-top: 45px;
+  }
+  .continue
+  {
+    font-family: cursive;
+    color: royalblue;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
